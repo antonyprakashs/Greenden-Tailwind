@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <!-- tailwind -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- responsive Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+
+        <div>
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li>
+                    <a href="index.html" class="hover:underline">Home</a>
+                </li>
+                <li>
+                    <a href="product.html" class="hover:underline">Product</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- svg -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+    </nav>
+    <!-- Header -->
+    <header class="text-center mt-5">
+        <h1 class="text-3xl font-bold pb-4 mt-5">Products</h1>
+        <input type="text" placeholder="Search for Products" class=" border border-black p-2" style="width: 60%;">
+    </header>
+    <!-- Cards -->
+    <section class="p-4 text-center">
+        <h1 class="text-3xl font-bold mt-5">Best Sellers</h1>
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-3">
+            <div>
+                <img src="./images/1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-b-sm"
+                    alt="">
+                <h1>White Flower</h1>
+                <p>$10</p>
+            </div>
+            <div>
+                <img src="./images/2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-b-sm"
+                    alt="">
+                <h1>Plant</h1>
+                <p>$8</p>
+            </div>
+            <div>
+                <img src="./images/3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-b-sm"
+                    alt="">
+                <h1>Yellow Flower</h1>
+                <p>$12</p>
+            </div>
+            <div>
+                <img src="./images/4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-b-sm"
+                    alt="">
+                <div>Decor Plant</div>
+                <p>$15</p>
+            </div>
+            <div>
+                <img src="./images/5.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-b-sm"
+                    alt="">
+                <div>Decor Plant</div>
+                <p>$15</p>
+            </div>
+            <div>
+                <img src="./images/6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-b-sm"
+                    alt="">
+                <div>Decor Plant</div>
+                <p>$15</p>
+            </div>
+            <div>
+                <img src="./images/7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-b-sm"
+                    alt="">
+                <div>Decor Plant</div>
+                <p>$15</p>
+            </div>
+            <div>
+                <img src="./images/8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-b-sm"
+                    alt="">
+                <div>Decor Plant</div>
+                <p>$15</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="bg-green-100 p-10">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p class="mt-5">The Standard Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="mt-5">&copy; 2026 Greenden</p>
+    </section>
+</body>
+
+</html>
